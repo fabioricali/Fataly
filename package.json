@@ -1,0 +1,27 @@
+{
+  "name": "fataly",
+  "version": "1.0.0",
+  "description": "Shortcut to throw an error",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "throw",
+    "error",
+    "shortcut",
+    "log",
+    "fatal",
+    "die",
+    "exception"
+  ],
+  "author": "Fabio Ricali",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabioricali/fataly"
+  }
+}
