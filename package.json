@@ -4,7 +4,10 @@
   "description": "Shortcut to throw an error",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "version:patch": "npm run-script build && npm version patch && git push && git push --tags",
+    "test": "mocha test",
+    "build": "uglifyjs src/fataly.js -o dist/fataly.min.js -c -m && uglifyjs src/fataly.js -o dist/fataly.js -b && npm run-script commit",
+    "commit": "git commit -a -m \"build\""
   },
   "keywords": [
     "throw",
@@ -18,7 +21,8 @@
   "author": "Fabio Ricali",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "uglify-js": "^3.0.23"
   },
   "repository": {
     "type": "git",
