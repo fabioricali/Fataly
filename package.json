@@ -1,6 +1,6 @@
 {
   "name": "fataly",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shortcut to throw an error",
   "main": "index.js",
   "scripts": {
