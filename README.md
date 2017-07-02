@@ -1,10 +1,30 @@
 # Fataly
 A shortcut to throw an error, very simple!
 
+[![Build Status](https://travis-ci.org/fabioricali/fataly.svg?branch=master)](https://travis-ci.org/fabioricali/fataly) [![Coverage Status](https://coveralls.io/repos/github/fabioricali/fataly/badge.svg?branch=master)](https://coveralls.io/github/fabioricali/fataly?branch=master)
+
 ## Installation
 
+### Node.js
 ```javascript
 npm install fataly --save
+```
+
+### Browser
+
+#### Local
+```html
+<script src="node_modules/fataly/dist/fataly.min.js"></script>
+```
+
+#### CDN unpkg
+```html
+<script src="https://unpkg.com/fataly/dist/fataly.min.js"></script>
+```
+
+#### CDN jsDeliver
+```html
+<script src="https://cdn.jsdelivr.net/npm/fataly/dist/fataly.min.js"></script>
 ```
 
 ## Usage
