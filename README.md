@@ -1,7 +1,7 @@
 # Fataly
 A shortcut to throw an error, very simple!
 
-[![Build Status](https://travis-ci.org/fabioricali/Fataly.svg?branch=master)](https://travis-ci.org/fabioricali/Fataly) [![Coverage Status](https://coveralls.io/repos/github/fabioricali/Fataly/badge.svg?branch=master)](https://coveralls.io/github/fabioricali/Fataly?branch=master)
+[![Build Status](https://travis-ci.org/fabioricali/Fataly.svg?branch=master)](https://travis-ci.org/fabioricali/Fataly) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
 
