@@ -4,7 +4,9 @@
   "description": "Shortcut to throw an error",
   "main": "index.js",
   "scripts": {
-    "version:patch": "npm run-script build && npm version patch && git push && git push --tags",
+    "version:major": "npm run-script build && npm version major && git push && git push --tags && npm publish",
+    "version:minor": "npm run-script build && npm version minor && git push && git push --tags && npm publish",
+    "version:patch": "npm run-script build && npm version patch && git push && git push --tags && npm publish",
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "test-mocha": "mocha test",
     "build": "uglifyjs src/fataly.js -o dist/fataly.min.js -c -m && uglifyjs src/fataly.js -o dist/fataly.js -b && npm run-script commit",
